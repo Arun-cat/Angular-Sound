@@ -1,0 +1,37 @@
+header{
+    background-color: rgb(5, 5, 5);
+}
+a{
+    
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: red;
+    background-color: blue;
+}
+.con{
+    display: flex;
+    justify-content: center;
+}
+a.logo{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border-radius: 5rem;
+    font-weight: bold;
+    padding: 1em;
+}
+nav ul{
+    list-style-type: none; 
+    margin: 0;
+}
+
+nav ul li {
+    padding: 1em;
+    display: inline-block;
+    color: aqua;
+}
+.ic{
+    padding-right: .5rem;
+    size: 1cm;
+}

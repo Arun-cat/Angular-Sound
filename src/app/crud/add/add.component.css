@@ -1,0 +1,18 @@
+.con{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 39rem;
+    padding-top: 8rem; */
+}
+.form-control{
+    width: 10cm;
+    height: 1cm;
+    padding: .5cm;
+    margin: .2rem;
+}
+.btn{
+    background-color: greenyellow;
+    width: 5rem;
+    height: 2.5rem;
+}

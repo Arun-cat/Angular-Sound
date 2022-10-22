@@ -1,0 +1,46 @@
+.sb{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+    background: rgb(176, 224, 235);  
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+h3{
+    
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border: 1px solid ;
+    margin: 20px 20px 20px 0px; 
+    border-radius: 0rem 2rem 2rem 0rem;
+    height: 3rem;
+    padding-top: .5rem;
+}
+li{
+    font-size: 1.2rem;
+    padding: .5rem;
+    border: 1px solid rgb(96, 189, 239);
+    border-radius: 12rem 0 0 12rem ;
+    background-color: lightcoral;
+    margin: 20px 0px 20px 20px ;
+    display: flex;
+    justify-content: center;
+}
+li a:hover{
+    opacity: 1;
+    color: white;
+}
+li a:focus{
+    color: white;
+}
+.icon mat-icon{
+    margin-left: 80%;
+}
+a mat-icon{
+    /* display:inline; */
+    padding-left: .1rem;
+    padding-top: .07cm;
+}

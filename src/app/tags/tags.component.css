@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: .5rem;
+    
+}
+div a {
+    background-color:black;
+    padding: .3rem 3rem;
+    margin: .3rem 1rem;
+    border-radius: 0 0 2rem 2rem;   
+    color: aliceblue;
+    font-weight: 500;
+}
+/* height: 3rem;
+    width: 20rem; */

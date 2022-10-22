@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<mat-drawer-container >
+    
+    <mat-drawer #sidebar mode="side" opened="true">
+        <app-trail></app-trail>
+    </mat-drawer>
+
+    <mat-drawer-content >
+        <div class="content">
+            <div class="tb">
+                <mat-toolbar>
+                    <mat-icon (click)="sidebar.toggle()">menu</mat-icon>
+                    <p>A headphone zone</p>
+                    <div class="icon">
+                        <mat-icon>headset</mat-icon>
+                        </div>
+                </mat-toolbar>
+            </div>
+        </div>
+
+
+        <div class="main">
+            <app-tags></app-tags>
+            <app-search></app-search>
+            <body>
+                <ul>
+                    <li *ngFor ="let sound of sounds"> 
+                        <!-- sounds declared and defined in sound.service.ts -->
+                        <a>
+                            <img src="{{sound.iu}}" alt="sound images">
+                            <!-- iu is link for the image -->
+                            <div class = "content">
+                                <div class = "name">
+                                    {{sound.name}}
+                                </div>
+                                <div class="pri">
+                                    {{sound.price}}
+                                    <span>₹</span>
+                                </div>
+                                <span class = "like {{sound.like?'':'not'}}">♥</span>
+                                <div class="classfoot">
+                                    <div class="avail">
+                                        <span> Available</span>
+                                        {{sound.available}}
+                                    </div>
+                                    <div class="rt">
+                                        {{sound.runtime}}
+                                        <span>hr🕑</span>
+                                    </div>
+                                </div>
+                                <div class="dr">
+                                    <span>No.of Drivers</span>
+                                    {{sound.drivers}}
+                                </div>
+                            </div>    
+                        </a>
+                    </li>
+                </ul>
+            </body>
+        </div>
+
+
+    </mat-drawer-content>
+</mat-drawer-container>

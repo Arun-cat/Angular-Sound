@@ -1,0 +1,67 @@
+mat-toolbar{
+    justify-content: space-between;
+    height: 1.5rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-top: 4%;
+    padding-left: 5em;
+    /*border-left: 15em;
+    border: 1px red; */
+
+}
+ul li a{
+    height: 22rem;
+    width: 20rem;
+    border: 1px solid skyblue;
+    border-radius: 5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: red;
+}
+li a:hover{
+    opacity: 0.8;
+}
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+.like{
+    position: absolute;
+    top: .5rem;
+    right: 2rem;
+    font-size: 1.2rem;
+}
+.like.not{
+    color: black;
+}
+.classfoot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    color: grey;
+    font-size: .8rem;
+    margin-right: .3rem;
+    
+}
+.dr{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    color: grey;
+    font-size: .8rem;
+    margin-right: .3rem;
+    display: inline-block;
+}
+.pri{
+    color: black;
+    margin-top: .2 ;
+}
+
